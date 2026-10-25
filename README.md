@@ -14,31 +14,31 @@ Run all commands from the project folder.
 
 ### Add a task
 ```
-python task_cli.py add "Buy groceries"
+python task_tracker.py add "Buy groceries"
 ```
 
 ### Update a task
 ```
-python task_cli.py update 1 "Buy groceries and cook dinner"
+python task_tracker.py update 1 "Buy groceries and cook dinner"
 ```
 
 ### Delete a task
 ```
-python task_cli.py delete 1
+python task_tracker.py delete 1
 ```
 
 ### Change a task's status
 ```
-python task_cli.py mark-in-progress 1
-python task_cli.py mark-done 1
+python task_tracker.py mark-in-progress 1
+python task_tracker.py mark-done 1
 ```
 
 ### List tasks
 ```
-python task_cli.py list
-python task_cli.py list todo
-python task_cli.py list in-progress
-python task_cli.py list done
+python task_tracker.py list
+python task_tracker.py list todo
+python task_tracker.py list in-progress
+python task_tracker.py list done
 ```
 
 ## Task properties
