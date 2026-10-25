@@ -5,7 +5,7 @@ import sys
 import json
 import os
 from datetime import datetime
-
+#save task into json file
 def load_tasks():
     if not os.path.exists("task.json"):
         with open("task.json", "w") as file:
@@ -17,7 +17,7 @@ def load_tasks():
 def save_tasks(tasks):
     with open("task.json", "w") as file:
         json.dump(tasks, file)
-
+ # add the task properties into json file
 if sys.argv[1] == "add":
     description = sys.argv[2]
     tasks = load_tasks()
