@@ -126,7 +126,7 @@ Each task in `task.json` has:
 
 | File | Purpose |
 |---|---|
-| `task_cli.py` | The command line version |
+| `task_tracker.py` | The command line version |
 | `task_ctk.py` | The desktop GUI version, with timer and alarm |
 | `alarm.wav` | The default sound file for the "My own sound file" option |
 | `task.json` | Where tasks are stored (created on first run, not uploaded to GitHub) |
